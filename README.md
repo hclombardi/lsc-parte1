@@ -49,11 +49,6 @@ Para compilar o projeto:
 mvn clean package
 ```
 
-Para compilar o projeto:
-```
-mvn clean package
-```
-
 Para executar o projeto:
 ```
 java -jar target/lsc-parte1-0.0.1-SNAPSHOT.jar
