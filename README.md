@@ -54,6 +54,12 @@ Para compilar o projeto:
 mvn clean package
 ```
 
+Para executar o projeto:
+```
+java -jar target/lsc-parte1-0.0.1-SNAPSHOT.jar
+```
+
+
 ## Execução dos testes
 
 No proprio processo de build já são executados os testes unitários.
