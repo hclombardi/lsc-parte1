@@ -4,7 +4,7 @@ Parte 1 do exercicio Le Salva Calcula
 
 ## Iniciando
 
-Estas instruções ajudarão a configurar e executar uma cópia do projeto em sua maquina. Pro favor siga os passos abaixo.
+Estas instruções ajudarão a configurar e executar uma cópia do projeto em sua maquina. Por favor siga os passos abaixo.
 
 ### Pre-requisitos
 
@@ -18,7 +18,7 @@ Banco de Dados MySQL
 
 ### Instalação
 
-Primeiramente, deve ser criado o banco de dados gft e o usuário gftuser no banco MySQL
+Primeiramente deve ser criado o banco de dados gft e o usuário gftuser no banco MySQL:
 
 ```
 CREATE DATABASE gft;
@@ -39,7 +39,7 @@ Depois o projeto deve ser clonado na máquina:
 git clone https://github.com/hclombardi/lsc-parte1.git
 ```
 
-No arquivo resources/application.properties deve ser alterado a pasta onde estarão os arquivos a serem processados
+No arquivo resources/application.properties deve ser alterado a pasta onde estarão os arquivos a serem processados:
 ```
 path.dir.json.files= /home/hamilton/gft/docs/massa/
 ```
@@ -56,7 +56,7 @@ mvn clean package
 
 ## Execução dos testes
 
-No proprio processo de build já são executados os testes unitários
+No proprio processo de build já são executados os testes unitários.
 
 
 ## Autor
